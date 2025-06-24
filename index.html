@@ -22,7 +22,7 @@
 
   <script>
     async function fetchScores() {
-      const res = await fetch("https://web-production-2e515.up.railway.app/scores.json");
+      const res = await fetch("https://web-production-1ebb.up.railway.app/scores.json");
       const scores = await res.json();
       for (const [teamName, teamScore] of Object.entries(scores)) {
         const id = teamName.replace(/\s/g, "-");
