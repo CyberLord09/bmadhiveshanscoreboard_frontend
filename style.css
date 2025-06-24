@@ -31,7 +31,7 @@ body {
 .score-box {
   position: relative;
   background-color: #f5e8d2;
-  background-image: url("/static/Akshardham.png");
+  background-image: URL("static/Akshardham.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
